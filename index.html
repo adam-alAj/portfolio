@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Welcome to Adam Alafandi's personal portfolio. Explore projects, skills, and contact information of a Full Stack Developer.">
+  <meta name="keywords"
+    content="Adam Alafandi, Full Stack Developer, Portfolio, Web Development, HTML, CSS, JavaScript, React, Node.js, Flutter, AI, Software Engineering, Mobile Apps, Projects, Contact, Resume, Skills, Services, Tech Portfolio, Developer Portfolio, Programming, Coding, Software Development">
+  <meta name="author" content="Adam Alafandi">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph  -->
+  <meta property="og:title" content="Portfolio - Adam Alafandi | Full Stack Developer">
+  <meta property="og:description"
+    content="Explore the portfolio of Adam Alafandi, showcasing web development projects and skills.">
+  <meta property="og:image" content="https://github.com/adam-alAj/portfolio/img/Adam_pic.jpg">
+  <meta property="og:url" content="https://github.com/adam-alAj/portfolio/">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio - Adam Alafandi | Full Stack Developer">
+  <meta name="twitter:description"
+    content="Explore the portfolio of Adam Alafandi, showcasing web development projects and skills.">
+  <meta name="twitter:image" content="https://github.com/adam-alAj/portfolio/img/Adam_pic.jpg">
+  <!--Structured Data-->
+  <script type="application/ld+json">
+  { 
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Adam Alafandi",
+    "url": "https://github.com/adam-alAj/portfolio/",
+    "sameAs": [
+      "https://www.linkedin.com/in/adam-alafandi",
+      "https://www.github.com/adam-alAj"
+    ],
+    "jobTitle": "Full Stack Developer",
+    "image": "https://github.com/adam-alAj/portfolio/img/Adam_pic.jpg",
+    "description": "Adam Alafandi is a Full Stack Developer with expertise in web development, creating responsive and modern applications."
+  }
+  </script>
+
+  <!-- 11. Preload / Prefetch (Improve Loading Performance) -->
+  <link rel="preload" href="style.css" as="style">
+
+  <!-- 12. Alternate Language (if site will have multiple languages) -->
+  <link rel="alternate" hreflang="en" href="https://github.com/adam-alAj/portfolio/">
+  <link rel="alternate" hreflang="ar" href="https://github.com/adam-alAj/portfolio/ar/">
+
+  <!-- Optional: Theme color for mobile browsers -->
+  <meta name="theme-color" content="#0a1a2f">
+
+  <!-- Stylesheets -->
+  <title>Portfolio - Adam Alafandi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon and Google Fonts -->
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body class="dark-theme">
+
+  <!-- Navbar Section -->
+  <header>
+    <nav class="cotainer">
+      <!-- Logo + Cyber tooltip (replace the old <h1>) -->
+      <div class="logo-wrapper" style="position: relative;">
+        <button id="nameCyberBtn" class="cyber-btn" aria-haspopup="true" aria-expanded="false">
+          Adam Alafandi
+        </button>
+
+        <div id="nameCyberTooltip" class="cyber-tooltip" role="tooltip" aria-hidden="true">
+          <div class="corner-tl"></div>
+          <div class="corner-tr"></div>
+          <div class="corner-bl"></div>
+          <div class="corner-br"></div>
+          <strong>SYSTEM READY</strong><br />
+          Authorization required for neural interface activation. Security protocol enabled.
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="#about"><i class="fa-solid fa-id-card"></i></a></li>
+        <li><a href="#WhatIdo"><i class="fa-solid fa-hammer">‌</i></a></li>
+        <li><a href="#skills-talents"><i class="fa-solid fa-wand-magic-sparkles"></i></a></li>
+        <li><a href="#resume"><i class="fa-solid fa-file-pdf"></i></a></li>
+        <li><a href="#projects"><i class="fa-solid fa-code"></i></a></li>
+        <li><a href="#certificates"><i class="fa-solid fa-user-graduate"></i></a></li>
+        <li><a href="#contact"><i class="fa-solid fa-phone"></i></a></li>
+      </ul>
+      <!-- From Uiverse.io by Galahhad -->
+      <label class="bb8-toggle">
+        <input class="bb8-toggle__checkbox" type="checkbox">
+        <div class="bb8-toggle__container">
+          <div class="bb8-toggle__scenery">
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="bb8-toggle__star"></div>
+            <div class="tatto-1"></div>
+            <div class="tatto-2"></div>
+            <div class="gomrassen"></div>
+            <div class="hermes"></div>
+            <div class="chenini"></div>
+            <div class="bb8-toggle__cloud"></div>
+            <div class="bb8-toggle__cloud"></div>
+            <div class="bb8-toggle__cloud"></div>
+          </div>
+          <div class="bb8">
+            <div class="bb8__head-container">
+              <div class="bb8__antenna"></div>
+              <div class="bb8__antenna"></div>
+              <div class="bb8__head"></div>
+            </div>
+            <div class="bb8__body"></div>
+          </div>
+          <div class="artificial__hidden">
+            <div class="bb8__shadow"></div>
+          </div>
+        </div>
+      </label>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <div class="card">
+      <img src="img/Adam_pic.jpg" alt="Adam Alafandi" class="profile-pic" />
+    </div>
+
+    <div class="hero-content">
+      <h2 data-aos="fade-right">Hi, I'm <span>Adam Alafandi</span></h2>
+      <p data-aos="fade-left"> a passionate Software Engineering | Full Stack developer.</p>
+      <!--<a href="#projects" class="btn" data-aos="flip-up">View My Work</a>-->
+      <a href="#projects" data-aos="flip-up">
+        <button class="btn-hero">View My Work</button>
+      </a>
+    </div>
+
+
+  </section>
+  <!-- About Section -->
+  <section id="about" class="about-section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a passionate <strong>Software Engineer</strong> with a strong background in building modern, efficient, and
+      scalable applications. Throughout my journey, I have gained hands-on experience in web development, mobile
+      applications, and system design. My technical skills include proficiency in languages such as Java, Python,
+      TypeScript, and Dart, as well as experience with frameworks like React, Flutter, and Node.js.
+
+      Beyond my technical expertise, I bring problem-solving abilities, adaptability, and a collaborative mindset that
+      help me work effectively in diverse teams. I value continuous learning, creativity, and delivering meaningful
+      solutions that make a positive impact. My commitment to quality and detail drives me to approach every project
+      with professionalism.
+
+      I believe that technology is not just about code, but about creating tools that improve lives, and I aim to
+      contribute to innovative projects that align with this vision.</p>
+
+  </section>
+  <!--what I do -->
+  <section id="WhatIdo" class="services-section" data-aos="zoom-in">
+    <div class="services-section">
+      <h2 data-aos="zoom-in" data-aos-delay="100">Services / What I Do</h2>
+      <p class="services-description" data-aos="zoom-in" data-aos-delay="200">
+        As a Software Engineer, I provide a wide range of professional services tailored to meet client needs:
+      </p>
+      <div class="service-card" data-aos="fade-right" data-aos-delay="300">
+        <!--wep dev card-->
+        <span class="icon">💻</span>
+        <h3>Web Development</h3>
+        <p>Building modern, responsive, and scalable websites using React, Node.js, and TypeScript.</p>
+        <span class="price">Starting from $500</span>
+      </div>
+      <!--Mobile App DEV card-->
+      <div class="service-card" data-aos="fade-right" data-aos-delay="400">
+        <span class="icon">📱</span>
+        <h3>Mobile App Development</h3>
+        <p>Developing cross-platform mobile applications with Flutter and Dart.</p>
+        <span class="price">Starting from $800</span>
+      </div>
+      <!-- Custom Software Solutions Card -->
+      <div class="service-card" data-aos="fade-right" data-aos-delay="500">
+        <span class="icon">🛠️</span>
+        <h3>Custom Software Solutions</h3>
+        <p>Designing and implementing applications or tools tailored to your business requirements.</p>
+        <span class="price">Starting from $1000</span>
+      </div>
+
+      <!-- UI/UX Integration Card -->
+      <div class="service-card" data-aos="fade-right" data-aos-delay="600">
+        <span class="icon">🎨</span>
+        <h3>UI/UX Integration</h3>
+        <p>Ensuring smooth user experiences with clean, functional, and creative design.</p>
+        <span class="price">Starting from $300</span>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- ========== Soft Skills & Talents Section ========== -->
+  <section id="skills-talents" class="skills-talents" data-aos="zoom-in">
+    <h2>Soft Skills & Talents</h2>
+    <div class="skills-talents-container">
+      <!--Soft Skills-->
+      <div class="skills-box" data-aos="fade-right">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Effective Communication</li>
+          <li>Teamwork & Collaboration</li>
+          <li>Problem-Solving</li>
+          <li>Adaptability</li>
+          <li>Time Management</li>
+          <li>Critical Thinking</li>
+          <li>Fluent English speaker</li>
+        </ul>
+      </div>
+      <!--Talents-->
+      <div class="skills-box" data-aos="fade-left">
+        <h3>Talents</h3>
+        <ul>
+          <li>Writing & Poetry</li>
+          <li>Art & Drawing</li>
+          <li>Creative Writing</li>
+          <li>Quick Learner</li>
+          <li>Public Speaking</li>
+          <li>Creative Thinking</li>
+          <li>Leadership</li>
+          <li>Attention to Detail</li>
+          <li>Resilience</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!--Life Achievements Section-->
+  <section id="achievements" class="achievements" data-aos="zoom-in">
+    <h2 data-aos="zoom-in">Life Achievements</h2>
+    <div class="achievements-container">
+      <div class="achievement-card" data-aos="zoom-in">
+        <h3>🏆 Volunteering</h3>
+        <p>Contributed 200+ hours in community service projects, helping underprivileged students learn technology
+          basics.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="150">
+        <h3>🌍 Travel & Exploration</h3>
+        <p>Visited 10+ countries, gaining cultural awareness and adaptability in different environments.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+        <h3>📚 Self-Learning</h3>
+        <p>Completed over 50 online courses across technology, design, and leadership skills.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="450">
+        <h3>🥇 Awards</h3>
+        <p>Recognized in multiple competitions for innovation, problem-solving, and leadership skills.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume-overview" data-aos="fade-up" aria-labelledby="overview-heading">
+    <h2 id="overview-heading" data-aos="zoom-in">Quick overview — Background & key qualifications</h2>
+    <p class="subheading" data-aos="fade-right" data-aos-delay="200">Concise summary of education, experience and core
+      technical skills.</p>
+
+    <dl>
+      <dt data-aos="fade-right" data-aos-delay="300">Education</dt>
+      <dd data-aos="fade-left" data-aos-delay="400">
+        B.Sc. in Software Engineering — Bethlehem University, 2027
+      </dd>
+
+      <dt data-aos="fade-right" data-aos-delay="500">Professional Experience</dt>
+      <dd data-aos="fade-left" data-aos-delay="600">
+        <ul>
+          <li>Developed and deployed web and mobile applications using <strong>React</strong>, <strong>Node.js</strong>,
+            and <strong>Flutter</strong>.</li>
+          <li>Designed databases and implemented backend systems with <strong>PostgreSQL</strong> and
+            <strong>MongoDB</strong>.
+          </li>
+          <li>Collaborated within teams using <strong>GitHub Flow</strong>, Agile methodologies, and CI/CD pipelines.
+          </li>
+          <li>Delivered scalable, optimized solutions for both individual clients and businesses.</li>
+        </ul>
+      </dd>
+
+      <dt data-aos="fade-right" data-aos-delay="700">Technical Skills</dt>
+      <dd data-aos="fade-left" data-aos-delay="800">
+        <div>
+          <div style="font-weight:600; margin-bottom:0.35rem;">Programming Languages</div>
+          <div class="skills-list" data-aos="zoom-in" data-aos-delay="900">
+            <span class="chip">Java</span>
+            <span class="chip">Python</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Dart</span>
+            <span class="chip">HTML & CSS & JavaScript</span>
+          </div>
+        </div>
+
+        <div style="margin-top:0.65rem;">
+          <div style="font-weight:600; margin-bottom:0.35rem;">Frameworks & Tools</div>
+          <div class="skills-list" data-aos="zoom-in" data-aos-delay="1000">
+            <span class="chip">React</span>
+            <span class="chip">Flutter</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express</span>
+          </div>
+        </div>
+
+        <div style="margin-top:0.65rem;">
+          <div style="font-weight:600; margin-bottom:0.35rem;">Databases & Other</div>
+          <div class="skills-list" data-aos="zoom-in" data-aos-delay="1100">
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">Git</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Linux</span>
+          </div>
+        </div>
+      </dd>
+    </dl>
+
+    <a href="files/Adam's Resume.pdf" download target="_blank" class="button" data-aos="fade-right"
+      data-aos-delay="1120">
+      <span class="button__text">Resume</span>
+      <span class="button__icon">
+        <svg class="svg" data-name="Layer 2" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z">
+          </path>
+          <path
+            d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z">
+          </path>
+          <path
+            d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z">
+          </path>
+        </svg>
+      </span>
+    </a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section" data-aos="zoom-in"> <!--class="container section"-->
+    <h2 data-aos="zoom-in">My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-aos="zoom-in">
+        <h3>Library Analytics System</h3>
+        <p>A Java-based system that models and analyzes library items using object-oriented design and Java Streams.</p>
+        <a href="files/Library Analytics System.pdf">
+          <button id="btn-proj" class="button-proj">Project URL</button>
+        </a>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>SocialGuard (Full-Stack Social Media Prototype)</h3>
+        <p>A social networking prototype that separates user groups by gender with identity verification and secure
+          content management.</p>
+        <a href="files/SocialGuard.pdf">
+          <button id="btn-proj" class="button-proj">Project URL</button>
+        </a>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>COVID-19 Data Analysis (Our World in Data Project)</h3>
+        <p>A Python-based data analytics project exploring global COVID-19 trends through visualizations and metrics.
+        </p>
+        <a href="files/COVID.pdf">
+          <button id="btn-proj" class="button-proj">Project URL</button>
+        </a>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>n8n AI Video Automation Workflow</h3>
+        <p>An automation workflow that generates and publishes AI-based news videos about Gaza using n8n and open AI
+          tools.
+        </p>
+        <a href="files/n8n AI Video Automation Workflow.pdf">
+          <button id="btn-proj" class="button-proj">Project URL</button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--Certificates Section-->
+  <section id="certificates" class="certificates section">
+    <h2 data-aos="fade-up">Certificates</h2>
+
+    <!-- Important Certificates -->
+    <div class="certificates-group">
+      <h3 data-aos="fade-right">Important Certificates</h3>
+      <div class="cert-cards">
+        <!--Problem Solving-->
+        <div class="cert-card" data-aos="zoom-in">
+          <h4>Intermediate Problem Solving</h4>
+          <p>Issued by Gaza Sky Geeks</p>
+          <button class="cert-btn" onclick="openModal('problemSolvingModal')">View Certificates</button>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+          <h4>Full Stack Development</h4>
+          <p>Issued by Udacity</p>
+          <button class="cert-btn" onclick="openModal('fullStackModal')">View Certificates</button>
+        </div>
+      </div>
+    </div>
+    <!-- Other Certificates -->
+    <div class="certificates-group">
+      <h3 data-aos="fade-right">Other Certificates</h3>
+      <div class="cert-cards">
+        <!--IEEE-->
+        <div class="cert-card" data-aos="flip-left">
+          <h4>IEEE Certifications</h4>
+          <p>Issued by IEEE</p>
+          <button class="cert-btn" onclick="openModal('ieeeModal')">View Certificates</button>
+        </div>
+        <!--sater-->
+        <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+          <h4>Sater Certifications</h4>
+          <p>Issued by Sater</p>
+          <button class="cert-btn" onclick="openModal('saterModal')">View Certificates</button>
+        </div>
+        <!--other-->
+        <div class="cert-card" data-aos="flip-left" data-aos-delay="200">
+          <h4>Other Certifications</h4>
+          <p>Issued by several different entities</p>
+          <button class="cert-btn" onclick="openModal('otherModal')">View Certificates</button>
+        </div>
+      </div>
+    </div>
+    <!--Full Stack Development Modal-->
+    <div id="fullStackModal" class="custom-modal">
+      <div class="custom-modal-content" data-aos="zoom-in">
+        <span class="close-btn" onclick="closeModal('fullStackModal')">&times;</span>
+        <h2>Full Stack Development Certificates</h2>
+        <p style="color: #fca311; font-style: italic; margin-top: 10px;">
+          ⚠️ The certificate is not available yet.<br>
+          The course is still in progress — thank you for your understanding!
+        </p>
+        <!--
+        <ul>
+          <li><a href="#" target="_blank">Certificate 1 - Full Stack Development</a></li>
+        </ul>
+         --> <!-- Add actual links >>>>>>>> Not finshed yet-->
+      </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container section" data-aos="fade-up">
+    <h2 data-aos="fade-up">Contact Me</h2>
+    <p data-aos="fade-up">Feel free to reach out through any of the platforms bellow:</p>
+
+    <div class="contact-icons" data-aos="fade-up">
+      <!-- whatsApp -->
+      <a href="https://wa.me/+972568019661?text=Hello%20I%20visited%20your%20portfolio%20website!" target="_blank"
+        class="contact-icon whatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com/in/adam-alafandi" target="_blank" class="contact-icon linkedin">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <!-- GitHub -->
+      <a href="https://github.com/adam-alAj" target="_blank" class="contact-icon github">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+      <!-- Email -->
+      <a href="mailto:adam1alafandi1@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20I%20saw%20your%20portfolio%20and..."
+        target="_blank" class="contact-icon email">
+        <i class="fas fa-envelope"></i>
+        <span>Email</span>
+      </a>
+
+
+
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Adam Alafandi — All rights reserved.</p>
+  </footer>
+
+  <!-- From Uiverse.io by elijahgummer -->
+  <div class="radio">
+    <input value="1" name="rating" type="radio" id="rating-1" />
+    <label title="1 stars" for="rating-1">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+        <path
+          d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+        </path>
+      </svg>
+    </label>
+
+    <input value="2" name="rating" type="radio" id="rating-2" />
+    <label title="2 stars" for="rating-2">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+        <path
+          d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+        </path>
+      </svg>
+    </label>
+
+    <input value="3" name="rating" type="radio" id="rating-3" />
+    <label title="3 stars" for="rating-3">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+        <path
+          d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+        </path>
+      </svg>
+    </label>
+
+    <input value="4" name="rating" type="radio" id="rating-4" />
+    <label title="4 stars" for="rating-4">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+        <path
+          d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+        </path>
+      </svg>
+    </label>
+
+    <input value="5" name="rating" type="radio" id="rating-5" />
+    <label title="5 star" for="rating-5">
+      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+        <path
+          d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z">
+        </path>
+      </svg>
+    </label>
+  </div>
+
+  <!--Problem Solving Modal-->
+  <div id="problemSolvingModal" class="custom-modal">
+    <div class="custom-modal-content" data-aos="zoom-in">
+      <span class="close-btn" onclick="closeModal('problemSolvingModal')">&times;</span>
+      <h2>Problem Solving Certificates</h2>
+      <ul>
+        <li><a href="img/certificate1.jpg" target="_blank">Certificate 1 - Problem Solving</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--IEEE Modal-->
+  <div id="ieeeModal" class="custom-modal">
+    <div class="custom-modal-content" data-aos="zoom-in">
+      <span class="close-btn" onclick="closeModal('ieeeModal')">&times;</span>
+      <h2>IEEE Certificates</h2>
+      <ul>
+        <li><a href="img/IEEE1.jpg" target="_blank">Certificate 1 - IEEE</a></li>
+        <li><a href="img/IEEE2.jpg" target="_blank">Certificate 2 - IEEE</a></li>
+        <li><a href="img/IEEE3.jpg" target="_blank">Certificate 3 - IEEE</a></li>
+        <li><a href="img/IEEE4.jpg" target="_blank">Certificate 4 - IEEE</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--sater model-->
+  <div id="saterModal" class="custom-modal">
+    <div class="custom-modal-content" data-aos="zoom-in">
+      <span class="close-btn" onclick="closeModal('saterModal')">&times;</span>
+      <h2>Sater Certificates</h2>
+      <ul>
+        <li><a href="img/sater1.jpg" target="_blank">Linux - Sater</a></li>
+        <li><a href="img/sater2.jpg" target="_blank">Vulnerabilities & attacks - Sater</a></li>
+        <li><a href="img/sater4.jpg" target="_blank">Flutter 101 - Sater</a></li>
+        <li><a href="img/sater3.jpg" target="_blank">FLutter 102 - Sater</a></li>
+        <li><a href="img/sater5.jpg" target="_blank">Flutter 104 - Sater</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--other-->
+  <div id="otherModal" class="custom-modal">
+    <div class="custom-modal-content" data-aos="zoom-in">
+      <span class="close-btn" onclick="closeModal('otherModal')">&times;</span>
+      <h2>Other Certificates</h2>
+      <ul>
+        <li><a href="img/Other1.jpg" target="_blank">The Art of Prose and Poetry writing - Bethlehem
+            University</a>
+        </li>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Select the checkbox input
+      const themeToggle = document.querySelector('.bb8-toggle__checkbox');
+      // Select the body element to apply the theme class
+      const body = document.body;
+
+      // Add a change event listener to the checkbox
+      themeToggle.addEventListener('change', () => {
+        // Toggle the 'light-theme' class on the body
+        if (themeToggle.checked) {
+          body.classList.add('light-theme');
+        } else {
+          body.classList.remove('light-theme');
+        }
+      });
+
+      // Optional: Check user's system preference and set initial theme
+      // This provides a better user experience
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        // User prefers light mode, set the checkbox and the class
+        if (themeToggle) {
+          themeToggle.checked = true;
+        }
+        body.classList.add('light-theme');
+      }
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const btn = document.getElementById('nameCyberBtn');
+      const tooltip = document.getElementById('nameCyberTooltip');
+
+      if (!btn || !tooltip) return;
+
+      // Click toggles tooltip (useful for mobile)
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        tooltip.classList.toggle('visible', !open);
+        tooltip.setAttribute('aria-hidden', String(open));
+      });
+
+      // Close when clicking elsewhere
+      document.addEventListener('click', function () {
+        btn.setAttribute('aria-expanded', 'false');
+        tooltip.classList.remove('visible');
+        tooltip.setAttribute('aria-hidden', 'true');
+      });
+
+      // Close on Escape
+      document.addEventListener('keydown', function (ev) {
+        if (ev.key === 'Escape') {
+          btn.setAttribute('aria-expanded', 'false');
+          tooltip.classList.remove('visible');
+          tooltip.setAttribute('aria-hidden', 'true');
+          btn.blur();
+        }
+      });
+
+      // Optional: prevent closing when clicking inside tooltip
+      tooltip.addEventListener('click', function (e) {
+        e.stopPropagation();
+      });
+    });
+  </script>
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = "block";
+    }
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+    window.onclick = function (event) {
+      document.querySelectorAll('.custom-modal').forEach(modal => {
+        if (event.target === modal) modal.style.display = "none";
+      });
+    }
+  </script>
+
+
+
+</body>
+
+</html>
