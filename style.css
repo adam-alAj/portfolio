@@ -15,6 +15,7 @@
   /* Default color for services section */
   --text-muted: #a0a0a0;
   --btn-hover: #00acc1;
+  --icon-names-color: #ffffff;
 }
 
 
@@ -25,6 +26,8 @@
   --text-color-services: #8a8484;
   /* Change color for services section in light theme */
   color: var(--text-color);
+  --icon-names-color: #000000;
+
 }
 
 body {
@@ -2071,6 +2074,33 @@ footer {
 
 /* mobile tweaks: tooltip should be centered and slightly lower */
 @media (max-width: 600px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .btn-hero {
+    width: 65%;
+  }
+
+  #home,
+  #about,
+  #services,
+  #projects,
+  #skills,
+  #contact {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
   .cyber-tooltip {
     left: 50%;
     bottom: calc(100% + 10px);
@@ -2081,6 +2111,21 @@ footer {
   .cyber-btn {
     padding: 6px 10px;
     font-size: 14px;
+  }
+
+  .bb8-toggle__container {
+    width: 60px;
+    height: 25px;
+  }
+
+  .bb8__body {
+    width: 30px;
+    height: 30px;
+  }
+
+  .bb8__head {
+    width: 17px;
+    height: 17px;
   }
 }
 
@@ -2328,4 +2373,8 @@ footer {
   .skills-talents {
     width: 90%;
   }
+}
+
+.namesOfIcons {
+  color: var(--icon-names-color);
 }
