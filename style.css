@@ -167,7 +167,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* From Uiverse.io by andrew-demchenk0 */
 .button {
   --main-focus: #2d8cf0;
   --font-color: #dedede;
@@ -666,7 +665,7 @@ h2::after {
   border-radius: 2px;
 }
 
-/* From Uiverse.io by zjssun */
+
 .button-proj {
   padding: 10px 20px;
   text-transform: uppercase;
@@ -1891,7 +1890,7 @@ footer {
 
 
 
-/* From Uiverse.io by Danishrehman786 (with small accessibility & visible tweaks) */
+
 .cyber-btn {
   position: relative;
   background: transparent;
@@ -2129,7 +2128,7 @@ footer {
   }
 }
 
-/* From Uiverse.io by elijahgummer */
+
 .radio {
   display: flex;
   justify-content: center;

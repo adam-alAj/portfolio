@@ -43,11 +43,11 @@
   <!-- 11. Preload / Prefetch (Improve Loading Performance) -->
   <link rel="preload" href="style.css" as="style">
 
-  <!-- 12. Alternate Language (if site will have multiple languages) -->
+  <!-- 12. Alternate Language -->
   <link rel="alternate" hreflang="en" href="https://adam-alaj.github.io/">
   <link rel="alternate" hreflang="ar" href="https://adam-alaj.github.io/ar/">
 
-  <!-- Optional: Theme color for mobile browsers -->
+  <!--Theme color for mobile browsers -->
   <meta name="theme-color" content="#0a1a2f">
 
   <!-- Stylesheets -->
@@ -66,7 +66,7 @@
   <!-- Navbar Section -->
   <header>
     <nav class="cotainer">
-      <!-- Logo + Cyber tooltip (replace the old <h1>) -->
+      <!-- Logo + Cyber tooltip) -->
       <div class="logo-wrapper" style="position: relative;">
         <button id="nameCyberBtn" class="cyber-btn" aria-haspopup="true" aria-expanded="false">
           Adam Alafandi
@@ -92,7 +92,6 @@
         <li><a href="#certificates"><i class="fa-solid fa-user-graduate"></i></a></li>
         <li><a href="#contact"><i class="fa-solid fa-phone"></i></a></li>
       </ul>
-      <!-- From Uiverse.io by Galahhad -->
       <label class="bb8-toggle">
         <input class="bb8-toggle__checkbox" type="checkbox">
         <div class="bb8-toggle__container">
@@ -485,7 +484,6 @@
     <p>&copy; 2025 Adam Alafandi — All rights reserved.</p>
   </footer>
 
-  <!-- From Uiverse.io by elijahgummer -->
   <div class="radio">
     <input value="1" name="rating" type="radio" id="rating-1" />
     <label title="1 stars" for="rating-1">
@@ -654,7 +652,7 @@
         }
       });
 
-      // Optional: prevent closing when clicking inside tooltip
+      //prevent closing when clicking inside tooltip
       tooltip.addEventListener('click', function (e) {
         e.stopPropagation();
       });
